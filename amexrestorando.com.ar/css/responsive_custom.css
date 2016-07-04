@@ -1,0 +1,176 @@
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+#section-event h1 {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	width: 98%;
+}
+}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+	
+    @media only screen and (max-width: 767px) {
+html, body {
+	overflow-x: hidden;
+}
+/* Resize section titles and descriptions in the mobile viewports */
+h2 {
+	font-size: 20px!important;
+	line-height: 30px!important;
+}
+p.desc {
+	font-size: 13px!important;
+	line-height: 23px!important;
+}
+}
+/*****************************************************************************/
+#section-event {
+	/* The background image used in this template is 1980 by 650 pixels */
+}
+#section-event .container, #section-event .container .container {
+	/*height: 470px;*/
+	padding-top: 20px;
+}
+#section-event .sixteen.columns {
+	height: 580px;
+	text-align: center;
+}
+#section-event h1 {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	width: 98%;
+}
+#section-event h1 img {
+	text-align: center;
+}
+#section-event img.header-banner {
+}
+}
+/*****************************************************************************/
+
+
+    
+
+        /* Assign bottom margins to the event information boxes */
+#section-event h2 {
+	margin-bottom: 30px;
+}
+#section-info #box-date, #section-info #box-time {
+	margin-bottom: 30px;
+}
+#section-info #box-location {
+	margin-bottom: 20px;
+}
+/* Reduce font-sizes in div#section-topic */
+		
+
+#section-about div.text-about {
+	margin-left: 0px;
+}
+#section-about .banner-promotion img {
+    margin: 0;
+}
+#section-about p {
+	font-size: 14px;
+	line-height: 26px;
+}
+#section-about div.about-prices {
+	font: normal 18px/34px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 10px 0 20px 0;
+	width: 98%;
+}
+#section-about .banner-promotion img {
+    margin: 0;
+}
+
+/*
+#section-about .banner-promotion{
+	padding: 30px 0 0;
+    position: relative;
+    width: 98%;
+	text-align: left;
+	}
+#section-about .banner-promotion img {
+	margin-right:20px;
+	margin-bottom: 50px;
+	}
+#section-about .banner-promotion p {
+	padding-top:0px;
+	}
+	*/
+
+/* Remove the gradient background in div#section-speakers */
+#section-fees {
+	background: #222;
+}
+#section-fees h3 span.sub2 {
+	font-size: 22px!important;
+	line-height: 1!important;
+}
+#section-fees .item {
+	height: 490px;
+	width: 240px;
+}
+#section-fees .item span.date {
+	font: 17px/26px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+}
+#section-fees .item p {
+	color: #D5D5D5;
+	font: 14px/18px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+}
+#section-map {
+	height: 350px!important;
+}
+#section-news p {
+	font-size: 13px;
+	line-height: 24px;
+}
+#section-register label.placeholder {
+	display: none;
+}
+#section-register .data {
+	height: auto;
+	width: auto;
+}
+/* Adjust footer social media menu */
+#section-footer ul#social {
+	float: none;
+}
+#section-footer ul#social li a {
+	background: #111;
+	border-right: 1px solid #000;
+}
+}
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+#section-about .banner-promotion {
+	padding: 30px 0 0;
+	position: relative;
+	width: 413px;
+	text-align: left;
+}
+#section-about .banner-promotion img {
+	padding-bottom: 10px;
+    margin: 0;
+}
+#section-about .banner-promotion p {
+	padding-top: 0px;
+	padding-right: 10px;
+}
+#section-map {
+	height: 200px!important;
+}
+}

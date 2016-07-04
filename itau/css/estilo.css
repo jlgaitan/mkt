@@ -1,0 +1,334 @@
+/* CSS Document */
+
+@import url(reset.css);
+/*@import url(layout.css);*/
+
+/* criterio cromatico */
+
+/* estilo bÃ¡sico de textos */ 
+
+body, html { font-size: 10px; font-family:Arial, Helvetica, sans-serif; color: #666666; line-height: 1.6; }
+
+a, a:link, a:visited { color:#666666!important; text-decoration:none;  }
+a:hover { color: #f47920!important;}
+a:active { }
+
+span { font-weight: bold; }
+span.descuento {color:#666666;}
+
+/* contenidos generales */
+
+#location{ color:#666666!important; display:block; border-bottom:thin solid #BFBFBF; padding:13px 0 4px 0; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+
+h3{font: 18px Arial, sans-serif; color: #13324A; margin-top: 20px;}
+h4{font: 16px Arial, sans-serif; color: #13324A; margin:10px 0;}
+
+#content img.recuadro { float: left; padding: 5px; margin: 15px 0 15px 25px; border: thin solid #BFBFBF; }
+.recuadro_fader { border: thin solid #BFBFBF; padding: 5px; margin-top:20px; }
+
+#content h1 { font-family:Arial, sans-serif, Helvetica; font-size:26px; margin-top: 20px; color:/*#F90*/#f47920; font-weight:normal;}
+#content p.bajada_titulo { font-size: 15px; text-align: left; margin-top: 15px; line-height: 1.4; color: #666666; }
+
+#content p.primer_parrafo { margin-top: 20px; }
+#content p { margin-top: 15px; font-size: 11px; text-align: left; }
+#texto_justificado p {text-align: justify; }
+
+/* ====== HEADER ====== */
+
+#header {position: relative; }
+#header_logo {position: absolute; left: 20px;}
+#header_logo_img { width:106px;height:105px; }
+
+/* ====== NAV_HOME ====== navegacion superior */
+
+#nav_header { }
+#nav_header ul li a, #nav_header ul li a:link,
+#nav_header ul li a:visited {font: 12px Arial, sans-serif; color:#13324A;}
+#nav_header ul li a:hover, #nav_header ul li a:focus, #nav_header ul li a:active { color: #ff9901; }
+#nav_header ul li span { font: 9px arial, sans-serif; color: #49545C; }
+
+
+/* ====== NAV_SIDEBAR ====== */
+
+#nav_sidebar_topborder { height: 15px; width:290px; background: url(../img/listado/fondo_listado_top.gif) no-repeat 0 0; } 
+
+#nav_sidebar_content { height: 100%; width: 290px; padding-left:7px; background: url(../img/listado/fondo_listado.gif) repeat-y 0 0; }
+	* html #nav_sidebar_content  	{ padding-left:0; }  		/* for IE 6  soluciona defasaje de bg de listado */
+	* + html #nav_sidebar_content  	{ padding-left:0; }  		/* for IE 7  soluciona defasaje de bg de listado */
+
+#nav_sidebar_content h3 { padding: 0 0 4px 0; margin: 0 30px 10px 10px; text-indent: 5px; display: block;
+						  font-size: 12px; font-family: arial; color: #49545C; font-weight: normal;
+						  border-bottom: thin solid #BFBFBF; }
+#nav_sidebar_content ul li a { padding: 0 0 4px 0; margin: 0 30px 10px 10px; text-indent: 5px; display: block;
+												  font-size: 11px; line-height:1.4; font-family: arial; color: #f47920; font-weight: normal;
+												 }
+												
+												
+#nav_sidebar_content a:hover a:visited { padding: 0 0 4px 0; margin: 0 30px 10px 10px; text-indent: 5px; display: block;
+											font-size: 11px; line-height:1.4; font-family: arial; color: #49545C; font-weight: normal; }
+											
+#nav_sidebar_bottomborder { height: 15px; width:290px; background: url(../img/listado/fondo_listado_bottom.gif) no-repeat 0 0; } 
+						
+#empresas_destacadas { margin-top:18px; }
+#empresas_destacadas h2 { font:14px Arial, sans-serif; line-height: 1.6; color: #555; margin-bottom:5px; padding-bottom:2px;
+												border-bottom: thin solid #BFBFBF; }
+#empresas_destacadas h2 span {color:#1F145D;}
+
+
+#busqueda { width:290px; margin-left:10px; } 
+#busqueda p { font:10px Arial, sans-serif; color: #f90;} 
+
+/* ================================================================ 
+This copyright notice must be kept untouched in the stylesheet at 
+all times.
+ 
+The original version of this stylesheet and the associated (x)html
+is available at http://www.stunicholls.com/menu/vertical-concertina-6.html
+Copyright (c) 2005-2008 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+ 
+/* #slide height = (number of top level links - 1) * height of links + inner div height */
+
+#slide {padding:0; padding:0; list-style:none; width:285px; height:400px;
+		position:relative; overflow:hidden; font-family: arial, sans-serif; font-size:11px; }
+		* html #slide 		{ margin-left: 10px; margin-right: -10px; }  		/* for IE 6, centra el listado */
+		* + html #slide  	{ margin-left: 10px; margin-right: -10px; }  		/* for IE 7  soluciona defasaje de bg de listado */
+
+#slide li.sub, #slide li.top
+{ display:block; float:left; height:36px; line-height:36px; width:285px; color:#666;
+  text-decoration:none; text-indent:20px; overflow:hidden; cursor:pointer; }
+ 
+#slide li.sub { background:url(../img/listado/listado.gif) no-repeat 0 2px; }
+ 
+#slide li.top a { text-decoration:none;color:#666;display:block;
+				  background:url(../img/listado/listado_home.gif) no-repeat 0 2px; }
+				
+#slide li.top a:hover { color:#13324A; background:url(../img/listado/listado_home_hover.gif) no-repeat 0 2px ;}
+#slide li.clicked {color:#666;background:url(../img/listado/listado_active.gif) no-repeat 0 2px;}
+ 
+/* #slide li.sub div height = (maximum sub lines * sub line height) + top level link height(variable fY in jQuery) */
+#slide li.sub div {height:250px; width:240px; padding:0 15px;
+				   line-height:1.2em; font-family: arial, sans-serif; text-indent:0;}
+#slide li div ul { padding:0; margin:0; list-style:none;}
+#slide li div ul li {float:left; height:24px; width:100%;}
+#slide li div ul li a {padding:0; margin:0;color:#666; text-decoration:none;
+					   font-size:10px; display:block; border-bottom:1px solid #ddd;
+					   height:24px; line-height:24px; width:100%; text-indent:20px;}
+#slide li div ul li a:hover {color:#13324A;}
+
+
+
+
+/* ====== DISPLAY ====== imagen personalizada + mensaje (home) + rotaciÃ³n de img */
+
+
+#fade_home_placer{position:absolute;top:0px;left:0px;}
+
+#fade_home{z-index:4;overflow:hidden;}
+* + html #fade_home  	{ overflow:visible;}  		/* for IE 7  soluciona problema de visualizacion del fader */
+
+#fade_beneficios{position:absolute;top:30px;left:30px;}
+
+
+
+#fade_beneficios{z-index:4;overflow:hidden;}
+* + html #fade_beneficios  	{ overflow:visible;}  		/* for IE 7  soluciona problema de visualizacion del fader */
+
+#persona_home { position:absolute; width:325px; height:300px; top:0px; left: 50px; z-index:5; }
+
+#display_info { position: absolute; left:380px; top: 50px; } /* posiciona el texto del display */
+
+#display h1 { font: 48px Arial, sans-serif; line-height: 1; letter-spacing:-1px; color: #13324A; text-shadow: 0px 1px 2px #D9D9D9; }
+#display p { font-size: 15px; margin-top: 15px; color: #49545C; }
+#display a, #display a:link, #display a:visited { display: block; margin-top:0px; }
+#display a:hover,#display a:focus,#display a:active{}
+
+
+
+
+/* ====== ESTILOS PARA CONTENIDOS PRINCIPALES ====== */
+
+#intro_home { display:block; border-bottom: thin solid #E6E6E6; margin-left: 45px; margin-bottom:12px; padding-bottom:3px;
+			  font-style:italic; color:#BFBFBF;}
+			
+#home_side_img {Â width: 300px; height: 600px; }
+
+/* secciones en contenido principal home */
+
+#enlace_seccion{ position:relative; display:block; margin: 0 0 20px 45px; }
+
+#enlace_seccion #icono { position: absolute; top: 0; left: -45px; height:35px; width: 35px; text-indent: -9000px; }
+#enlace_seccion a:link #icono.flecha_derecha, #enlace_seccion a:visited #icono.flecha_derecha { background-image: url(../img/icons/flecha_derecha.png); }
+#enlace_seccion a:hover #icono.flecha_derecha, #enlace_seccion a:focus #icono.flecha_derecha { background-image: url(../img/icons/flecha_derecha_hover.png); }
+
+#enlace_seccion h2 { font: 19px Arial, sans-serif; color: #f47920; }
+
+#enlace_seccion a:link h2, #enlace_seccion a:visited h2 { color: #003399; }
+#enlace_seccion a:hover h2, #enlace_seccion a:focus h2 { color: #f47920; }
+#enlace_seccion p.detalle_seccion { font-size: 10px; padding: 5px 0; margin:5px 0; color: #49545C;
+	 								border-bottom: thin solid #BFBFBF; border-top: thin solid #BFBFBF; }
+#enlace_seccion p { margin-top: 8px !important; text-align: left !important; }
+
+
+.amigos {border:0; display:block }
+
+#container_amigos { width:590px; border:0; display:block; float:left; margin-top:0px;}
+
+.amigo_cuadro { display:inline; width:140px;}
+
+
+/* secciones con categorias (interior) */
+
+#enlace_categoria { position: relative; margin: 0 0 25px 45px; }
+
+#enlace_categoria #icono { position: absolute; top: 0; left: -45px; height:35px; width: 35px; text-indent: -9000px; }
+#enlace_categoria a:link #icono.flecha_derecha, #enlace_categoria a:visited #icono.flecha_derecha { background-image: url(../img/icons/flecha_derecha.png); }
+#enlace_categoria a:hover #icono.flecha_derecha, #enlace_categoria a:focus #icono.flecha_derecha { background-image: url(../img/icons/flecha_derecha_hover.png); }
+
+#enlace_categoria h2 { font: 15px Arial, sans-serif; color: #5E7687; padding-top: 9px; }
+
+#enlace_categoria.anchofijo{display:block;float:left;width:42%;}
+	* html #enlace_categoria.anchofijo 		{ display:inline; }  		/* for IE 6 */
+	* + html #enlace_categoria.anchofijo  	{ display:inline; }  		/* for IE 7 */
+	
+#enlace_categoria a:link h2, #enlace_categoria a:visited h2 { color: #13324A; }
+#enlace_categoria a:hover h2, #enlace_categoria a:focus h2 { color: #5E7687; }
+
+.margen_categorias{padding-top: 20px;} /* margen para categorias en paginas de secciones, por ej. bienestar, etc */
+
+/* buscadores - Acordeon */
+
+#fondo_topborder { height: 15px; width:605px; background: url(../img/listado/buscadores/fondo_top.gif) no-repeat 0 0; margin-top: 13px;} 
+#fondo_bottomborder { height: 15px; width:605px; background: url(../img/listado/buscadores/fondo_bottom.gif) no-repeat 0 0; } 
+#fondo_content {height:100%; width: 565px; background: url(../img/listado/buscadores/fondo_bg.gif) repeat-y 0 0; padding: 0 20px; }
+
+
+#acordeon p { text-align: left !important;}
+
+#acordeon h4 {position: relative; height: 20px; display: block; font:13px Arial, sans-serif; color: #666666; text-indent: 25px; padding-top:5px; margin-top: 2px;
+			  border: thin solid #D9D9D9;
+			  background: #E6E6E6 url(../img/bullets/blt_flecha_right.gif) no-repeat 5px 4px;}
+			
+#acordeon h4.buscador_titulo { margin-top: 0; padding-top: 5px; color:#666666; }
+
+#acordeon h4.buscador_titulo { margin-top: 0; padding-top: 5px; color:#666666; }
+
+
+.expander{position: absolute; top: 5px; right:5px; height: 16px; width: 16px;
+			   background: url(../img/bullets/btn_mas.gif) no-repeat 0 0; }
+.contraer{position: absolute; top: 5px; right:5px; height: 16px; width: 16px;
+			   background: url(../img/bullets/btn_menos.gif) no-repeat 0 0; }
+			
+.aco_titulo { cursor: pointer; }
+.aco_contenido {	}
+
+/* buscador horizontal - Jcarousel (tiendas) */
+
+.jcarousel-container { height: 220px; width: 510px; } /* alto y ancho del container */
+.jcarousel-container-horizontal {  margin-top: 10px; padding: 0 25px 0 30px; }
+
+.jcarousel-clip-horizontal { width: 100%; }
+
+.jcarousel-item img { width: 120px; height: 85px; border: thin solid #DCDCDC; }
+.jcarousel-item-horizontal { margin-right: 8px; } /* espacio entre items */
+.jcarousel-item-placeholder { }
+
+.jcarousel-next-horizontal { position: absolute; top: 45px; right: 5px; width: 16px; height: 16px; cursor: pointer;
+    background: transparent url(../img/bullets/blt_flecha_right.gif) no-repeat 0 0; }
+
+.jcarousel-next-horizontal:hover { background: transparent url(../img/bullets/blt_flecha_right.gif) no-repeat 0 0; }
+.jcarousel-next-horizontal:active { background: transparent url(../img/bullets/blt_flecha_right.gif) no-repeat 0 0;}
+.jcarousel-next-disabled-horizontal,
+.jcarousel-next-disabled-horizontal:hover,
+.jcarousel-next-disabled-horizontal:active { cursor: default; background: transparent url(../img/bullets/blt_flecha_right_disabled.gif) no-repeat 0 0; }
+
+.jcarousel-prev-horizontal { position: absolute; top: 45px; left: 5px; width: 16px; height: 16px; cursor: pointer;
+    background: transparent url(../img/bullets/blt_flecha_left.gif) no-repeat 0 0; }
+
+.jcarousel-prev-horizontal:hover { background: transparent url(../img/bullets/blt_flecha_left.gif) no-repeat 0 0;}
+.jcarousel-prev-horizontal:active { background: transparent url(../img/bullets/blt_flecha_left.gif) no-repeat 0 0; }
+.jcarousel-prev-disabled-horizontal,
+.jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-prev-disabled-horizontal:active { cursor: default; background: transparent url(../img/bullets/blt_flecha_left_disabled.gif) no-repeat 0 0; }
+
+.jcarousel-list li p { font-size: 9px !important; margin-top: 7px !important; }
+	
+/* buscadores + forms */
+
+#buscador_restaurantes,#buscador_hoteles{width:270px;}
+
+#field_region { margin-bottom: -15px;}
+#field_region, #field_zona, #field_tipodecocina, #field_categoria { margin-top: 10px; }
+#field_region legend,#field_zona legend,#field_tipodecocina legend,#field_categoria legend{font:10px arial, sans-serif;color:#13324A;padding-left:8px;}
+#field_region select,#field_zona select,#field_tipodecocina select,#field_categoria select{margin-top:4px;width:100%;}
+
+#buscador_restaurantes a,#buscador_restaurantes a:link,#buscador_restaurantes a:visited{float:left;font-size:9px;text-decoration:underline;color: #5E7687;}
+#buscador_hoteles a,#buscador_hoteles a:link,#buscador_hoteles a:visited{float:left;font-size:9px;text-decoration:underline;color: #5E7687;}
+
+#btn_buscar { float:right; width: 75px; margin-bottom: 20px;}
+
+/* buscador ficha */
+
+#buscador_ficha{width:100%;padding:8px 0;}
+#buscador_ficha #acordeon_column1{width:355px;}
+#buscador_ficha #acordeon_column2{width:185px;}
+
+
+/* formulario de contacto */
+
+#form_contacto {width:60%;}
+
+#form_contacto .comentarios{ width:100%;}
+#form_contacto .texto { display:block; width:100%; font-style: italic; margin-top:5px;}
+
+#form_contacto input {margin:15px 0;  color:#49545C; }
+#form_contacto input.campo {display:block;width:100%;}
+#form_contacto input.enviar {display:block;margin-top:2px;}
+
+
+/* formulario de newsletter */
+
+#form_newsletter {width:100%;}
+
+#form_newsletter input {margin:15px 0;  color:#49545C; }
+#form_newsletter input.campo {display:block;width:100%;}
+#form_newsletter input.enviar {display:block;margin-top:2px;}
+
+
+/* novedades - boletin informativo */
+
+#novedades_establecimiento {width:100%; margin-top:10px;}
+#novedades_destacado {display:inline; float:left; width:45%; margin: 0 25px 25px 0;}
+
+#novedades_establecimiento #establecimiento_logo img { width: 120px; height: 85px; margin:10px 10px 10px 0; border: thin solid #DCDCDC;}
+#novedades_establecimiento #establecimiento_imagen img { width: 100%; margin:10px 0 0 0; border: thin solid #DCDCDC;}
+
+#novedades_establecimiento #establecimiento_nombre { font-size: 14px; padding:5px; margin:0; background-color:#f2f2f2;}
+#novedades_establecimiento #establecimiento_categoria{ padding:2px 0 0 5px; margin:0; font-style:italic;}
+
+#novedades_establecimiento #establecimiento_beneficio { font-size: 12px; margin: 0 0 0 0; padding:0 0 0 5px;}
+#novedades_establecimiento #establecimiento_restriccion { margin:10px 0 0 5px;}
+#novedades_establecimiento #establecimiento_restriccion a { display:block; padding:5px 0;}
+
+a.mas_info {display:block;background: url(../img/bullets/btn_mas.gif) no-repeat 0 10px; padding: 10px 0 0 20px; margin: 10px 0;
+			border-top: thin solid #BFBFBF;}
+
+/* ====== FOOTER ====== */
+
+#footer_column1, #footer_column2, #footer_column3{font-size:10px;color:#49545C;}
+
+#enlace_footer {position:relative; margin: 0 0 20px 45px; }
+#enlace_footer #icono { position:absolute; top:0; left:-45px; height:35px; width:35px; text-indent: -9000px; }
+	.lupa{ background-image: url(../img/icons/lupa.png); }				
+	.mail{ background-image: url(../img/icons/mail.png); }				
+	.chat{ background-image: url(../img/icons/chat.png); }				
+
+#enlace_footer h2 { font: 14px Arial, sans-serif; color: #FFFFFF; }
+#enlace_footer p.detalle_seccion { font-size: 9px; padding: 10px 0; margin-top:-5px; color: #FFFFFF;
+	 								}
+#enlace_footer p { margin-top: 10px; }
+#enlace_footer a { display: block; padding-top: 10px; }
+
+#info_fidelity {text-align: left;padding:0px 0;font-size:9px;}

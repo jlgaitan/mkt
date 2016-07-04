@@ -1,0 +1,440 @@
+body,html{
+	overflow-x:hidden;
+}
+.new-styles body, .new-styles select, .new-styles input, .new-styles textarea {
+	font-family:Helvetica Neue, Helvetica-Neue, Helvetica, sans-serif;
+	color:#222
+}
+.new-styles body {
+	font-size:13px
+}
+.new-styles a {
+	text-decoration:none
+}
+.new-styles a:hover {
+	text-decoration:underline
+}
+.new-styles .container {
+	/*width:960px;*/
+	margin:auto
+}
+.new-styles h2 {
+	font-family:Open Sans, sans-serif;
+	font-size:30px;
+	font-weight:200;
+	text-align:center;
+	margin:0;
+	line-height:30px;
+	padding:45px 0 30px 0;
+	color:#1c1c1c
+}
+.new-styles h3 {
+	font-family:Open Sans, sans-serif;
+	font-size:24px;
+	font-weight:300;
+	color:#c30000;
+	margin:0;
+	padding:10px 0 0px 0
+}
+.new-styles .get-in-touch-methods {
+	text-align:center
+}
+.new-styles .get-in-touch-methods .phone {
+	color:#1c1c1c;
+	font-size:20px;
+	font-weight:500;
+	position:relative;
+	top:-3px;
+	width:150px;
+	padding:0 0 4px 47px;
+	text-align:left;
+	display:inline-block;
+	background:url(http://www.restorando.com/assets/new-site/icons/footer-phone-8411fa90c2ec9bfdb8e08e74abd107bb.png) no-repeat 22px 0
+}
+.new-styles .get-in-touch-methods .email {
+	text-align:left;
+	background:url(http://www.restorando.com/assets/new-site/icons/chat-52ddf1cea16659be1c8a7285e6ba5d2a.png) no-repeat 0 -4px;
+	padding-left:30px;
+	width:130px;
+	height:23px;
+	display:inline-block;
+	color:#1c1c1c;
+	font-size:12px;
+	font-weight:400;
+	position:relative;
+	top:-3px;
+	text-decoration:underline
+}
+
+.new-styles header {
+	/*height:70px;*/
+	margin:auto;
+	background:#fff;
+	/*box-shadow: 3px 0px 8px #ccc;*/
+}
+.new-styles header .container {
+	position:relative
+}
+.new-styles header .container h1 {
+	margin:0
+}
+/*----------------------------------------------------------*/
+.new-styles header .container .slogan {
+	font-size: 14px!important;
+}
+.new-styles .badge-desc {
+	position:absolute;
+	background:url(../images/badge-small.png) right top no-repeat;
+	width:71px;
+	height:73px;
+	padding:2px 4px 0 0;
+	color:#fff;
+	text-align:right;
+	top: -1px;
+	right: -1px;
+}
+.new-styles .badge-desc span.number {
+	font-size:20px;
+	font-weight:600;
+	line-height:20px;
+	position:relative;
+	left:2px
+}
+.new-styles .badge-desc span.percentage {
+	font-size:15px;
+	font-weight:bold
+}
+.new-styles .badge-desc span.text {
+	display:block;
+	line-height:10px;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:600
+}
+/*-------------------------------------------------------------------------------*/
+.new-styles .badge-desc-big {
+	position:absolute;
+	background:url(../images/badge-big.png) right top no-repeat;
+	width:120px;
+	height:120px;
+	padding:2px 4px 0 0;
+	color:#fff;
+	text-align:right;
+	top: -1px;
+	right: -1px;
+}
+.new-styles .badge-desc-big span.number {
+	font-size:46px;
+	font-weight:600;
+	line-height:48px;
+	letter-spacing: -0.5px;
+	position:relative;
+	left:3px;
+}
+.new-styles .badge-desc-big span.percentage {
+	font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.new-styles .badge-desc-big span.text {
+	display:block;
+	text-transform:uppercase;
+	font-size: 22px;
+    font-weight: 600;
+    line-height: 17px;
+}
+/*-------------------------------------------------------------------*/
+.new-styles .badge-desc {
+	position:absolute;
+	background:url(../images/badge-small.png) right top no-repeat;
+	width:71px;
+	height:73px;
+	padding:2px 4px 0 0;
+	color:#fff;
+	text-align:right;
+	top: -1px;
+	right: -1px;
+}
+.new-styles .badge-desc span.number {
+	font-size:20px;
+	font-weight:600;
+	line-height:20px;
+	position:relative;
+	left:2px
+}
+.new-styles .badge-desc span.percentage {
+	font-size:15px;
+	font-weight:bold
+}
+.new-styles .badge-desc span.text {
+	display:block;
+	line-height:10px;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:600
+}
+.address {
+	font-size: 13px;
+	line-height: 100%;
+	color: #333333!important;
+	margin: 0 0 0 7px;
+	}
+.list-icon {
+    float: left;
+    height: 35px;
+    margin-top: 2px;
+    max-width: 35px;
+    width: 35px;
+}
+.icons-cuisine {
+    background-image: url("../images/sprite.png");
+    background-position: 0 -1172px;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 28px;
+	margin: 13px 0 0 5px;
+}
+.icons-price {
+    background-image: url("../images/sprite.png");
+    background-position: 0 -1124px;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 28px;
+	margin: 13px 0 0 0;
+}
+.icons-cuisine-text {
+    float: left;
+	font-size: 14px;
+	margin: 13px 0 0 0;
+    padding: 7px 0 0 10px;
+    width: 55%;
+}
+.icons-price-text {
+    float: left;
+	font-size: 14px;
+	margin: 13px 0 0 0;
+    padding: 7px 0 0 10px;
+    width: 15%;
+}
+div.shadow {
+	background: url("../images/shadow.png") no-repeat scroll center bottom / 100% 100% transparent;
+	z-index: 0;
+	height: 15px;
+	position: relative;
+	top: 342px;
+    width: 312px;
+	}
+div.name {
+    color: #c20000;
+    font-family: Open Sans,sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 100%;
+	margin: 0 0 5px 6px;
+	letter-spacing: -0.5px;
+}
+div.name span{
+    font-size: 60%!important;
+    line-height: 100%;
+}
+div.terms {
+    color: #6b6b6b;
+    font-family: Open Sans,sans-serif;
+	font-size: 12px;
+    font-weight: 200;
+    line-height: 14px;
+    margin: 10px 5px 0 7px;
+	}
+div.box-items {
+	margin-top: 0;
+	position: relative;
+ 	width: 470px;
+	float:left;
+ }
+.stars {
+	width:76px;
+	height:13px;
+	background:url(http://www.restorando.com/assets/new-site/general/ratings-background-ae8c87fa0aa99748e1f002cae5d12742.png) repeat-x;
+	margin: 5px 0 0;
+}
+.stars .real-stars {
+	height:13px;
+	background:url(http://www.restorando.com/assets/new-site/general/ratings-real-1aba8f4e1a21dae9977db58d8c1346b1.png) repeat-x
+}
+.stars .real-stars.zero-half {
+	width:10%
+}
+.stars .real-stars.one {
+	width:20%
+}
+.stars .real-stars.one-half {
+	width:30%
+}
+.stars .real-stars.two {
+	width:40%
+}
+.stars .real-stars.two-half {
+	width:50%
+}
+.stars .real-stars.three {
+	width:60%
+}
+.stars .real-stars.three-half {
+	width:70%
+}
+.stars .real-stars.four {
+	width:80%
+}
+.stars .real-stars.four-half {
+	width:90%
+}
+.stars .real-stars.five {
+	width:100%
+}	
+.btn {
+	background:#fbd44e;
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fee594), color-stop(100%, #fed44f));
+	background-image:-webkit-linear-gradient(#fee594, #fed44f);
+	background-image:-moz-linear-gradient(#fee594, #fed44f);
+	background-image:-o-linear-gradient(#fee594, #fed44f);
+	background-image:linear-gradient(#fee594, #fed44f);
+	border:none;
+    padding: 15px 0px;
+	margin: 10px 0 0 10px;
+	text-align:center;
+	width:291px;
+	font-family: Open Sans,sans-serif;
+	font-size:16px;
+	font-weight: 600;
+	color:#1c1c1c!important;
+	position:relative;
+	top:283px;
+	z-index:2;
+	-webkit-border-radius:3px 3px;
+	-moz-border-radius:3px / 3px;
+	border-radius:3px / 3px;
+	float: left;
+	text-decoration: none!important;
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+a.btn:hover {
+	background:#feca24;
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffd858), color-stop(100%, #feca24));
+	background-image:-webkit-linear-gradient(#ffd858, #feca24);
+	background-image:-moz-linear-gradient(#ffd858, #feca24);
+	background-image:-o-linear-gradient(#ffd858, #feca24);
+	background-image:linear-gradient(#ffd858, #feca24);
+	-webkit-box-shadow:0 0 6px 0px #000;
+	-moz-box-shadow:0 0 6px 0px #000;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+	text-decoration: none;
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.btn span{
+	font-size: 12px;
+	color: #c20000;
+}
+.red {
+	color: #fff!important;
+	background:#C30000!important;
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #C30000), color-stop(100%, #930000))!important;
+	background-image:-webkit-linear-gradient(#C30000, #930000)!important;
+	background-image:-moz-linear-gradient(#C30000, #930000)!important;
+	background-image:-o-linear-gradient(#C30000, #930000)!important;
+	background-image:linear-gradient(#C30000, #930000)!important;
+}
+div.line {
+	border-bottom: 1px dotted #CCCCCC;
+    height: 40px !important;
+	width: 900px;
+	clear: both;
+	margin: 40px 0;
+	}
+div.legal {
+    color: #6b6b6b;
+    font-family: Open Sans,sans-serif;
+	font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 10px 10px 30px 0;
+    width: 100%;
+	display: inline-block;
+	text-align:inherit;
+	}
+/*--------------------------------------------------------------------*/
+.new-styles #fill-background {
+	background:#fff;
+	width:100%;
+	padding:40px 0;
+}
+img.header-banner {
+	display: block;
+    max-width:960px;
+    max-height:300px;
+	min-width: 310px;
+    width: 100%!important;
+    height: auto!important;
+	margin: 0 0 30px 0;
+}
+ul.restaurant-boxes li{
+	width: 310px;
+	height: 340px;
+	display: inline-block;
+	margin: 0 10px 30px 0;	
+}
+div.resto {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: block;
+    height: 340px;
+    padding: 0px;
+    position: absolute;
+    width: 310px;
+    z-index: 1;
+}	
+.restaurant-photo {
+	margin: 0 0 10px 0;
+	width: 310px;
+	height: 180px;
+}
+.container-button{
+	width:100%;
+	position: relative;
+	margin: 10px 0 0 0px;
+	float: left;
+	text-align: center;
+}
+button.reservar {
+	background:#fbd44e;
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fee594), color-stop(100%, #fed44f));
+	background-image:-webkit-linear-gradient(#fee594, #fed44f);
+	background-image:-moz-linear-gradient(#fee594, #fed44f);
+	background-image:-o-linear-gradient(#fee594, #fed44f);
+	background-image:linear-gradient(#fee594, #fed44f);
+	border:none;
+    padding: 15px 0px;
+	text-align:center;
+	width: 96%;
+	font-family: Open Sans,sans-serif;
+	font-size:16px;
+	font-weight: 600;
+	color:#1c1c1c!important;
+	z-index:2;
+	-webkit-border-radius:3px 3px;
+	-moz-border-radius:3px / 3px;
+	border-radius:3px / 3px;
+	text-decoration: none!important;
+	transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,64 @@
+.visa-widget {
+    margin: 20px;
+}
+.visa-widget img {
+    height: 65px;
+	width: 200px;
+	margin: 20px 0;
+}
+.modal-body form {
+	margin:0px;
+    text-align: center;
+    width: 240px;
+}
+.modal-body p {
+	font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+    padding: 0 10px; 
+}
+.modal-body .field {
+	font: normal 16px/20px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#000000;
+	text-align:center;
+	border: #cccccc 1px solid;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset;
+	letter-spacing: 1px;
+	padding: 15px 14px;
+    text-align: center;
+}
+.modal-body .button-card {
+	font: normal 20px/30px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	display: inline;
+	cursor: pointer;
+	color: #fff;
+	background: #d30000;
+	padding: 10px 30px;
+	border: none;
+	text-align: center;
+	margin: 15px 0;
+}
+.modal-body .button-card:hover{
+	color: #fff;
+	background: #ff0000;
+}
+
+.modal-body .button-card:visited {
+	color: #fff;
+}
+.modal-body .button-card,.modal-body .button-card:hover{
+	transition: all 0.3s ease-in-out 0s!important;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+.error {
+	display: none;
+	font: normal 14px/20px 'Open Sans', Arial, Helvetica, sans-serif;
+	color: #ff0000;
+	background: #f6eaea;
+	padding:5px;
+    margin: 0;
+
+}

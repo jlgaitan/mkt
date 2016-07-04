@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.benefCtrl{ width:605px; float:left; clear:both; font-family:Arial, Helvetica, sans-serif;}
+.row{ width:100%; clear:both;}
+.benefCtrl .benefBox{ width:191px; min-height:180px; float:left; clear:none; padding:0 5px; margin:15px 0 0 0;}
+.benefCtrl .benefBox h6{ width:100%; float:left; clear:both; margin:0 0 2px 0; padding:0; font-size:11px; color:#f47920;}
+.benefCtrl .benefBox-thumbnail{ width:156px; float:left; padding:3px 0 3px 35px; background-color:#FFF;}
+.benefCtrl .benefBox-thumbnailProm{ width:191px; float:left; padding:0; background-color:#FFF;}
+.benefCtrl .benefBox-item-imageback{ width:120px; height:80px; float:left;}
+
+.benefCtrl .benefBox .benefBox-ofer{ width:191px; height:auto; float:left; clear:both; margin:3px 0 0 0; padding:0; color:#666; vertical-align:top;}
+.benefCtrl .benefBox .benefBox-ofer p{ width:181px; float:left; margin:0 !important; padding:0 5px; vertical-align:top; font-size:11px !important; line-height:14px; color:#666;}
+.benefCtrl .benefBox .benefBox-ofer p strong{ font-size:11px !important; line-height:13px; color:#f47920;}
+.benefCtrl .benefBox .benefBox-ofer div{ margin:0; padding:0;}
+.benefCtrl .benefBox .benefBox-catbox{ width:181px; float:left; clear:both; padding:0 5px 0 5px; font-weight:bold;}
+.benefCtrl .benefBox .benefBox-catbox a{ text-decoration:underline; font-weight:normal; font-size:11px;}
+.benefCtrl .benefBox .benefBox-catbox a:hover{ text-decoration:underline; color:#999;}
+
+.benefCtrl .benefBox p{ width:100%; float:left; margin:0; padding:0;}
+.benefCtrl p{ width:100%; float:left; margin:0; padding:0;}
+
+.boxpager.text-center  .active a, .boxpager.text-center a:hover{ background:#ec7404; color:#ffffff;}
+.boxpager{ width:100%; float:left; clear:both; padding-top:20px; text-align:center;}
+.boxpager.text-center a{ color:#ffffff;}
+.boxpager li{ display:inline;}
+.boxpager a { padding:5px 10px; margin:0 4px;}
+.boxpager ul{ margin-bottom:50px;}
+.boxpager.text-center a{ background-color:#f47920;}
+
+.SclearS{ width:100%; height:1px; float:left; clear:both;}
+
+.estImgCtrl{ width:605px; float:left; clear:both; margin:1px 0 0 0;}
+.estImgCtrl{} .estImgCtrlInt{ width:100%; float:left; position:relative;}
+.estImgCtrl{} .estImgCtrlInt{} .estPic{ width:600px; height:300px; position:relative; z-index:1; background-position:left top; background-repeat:no-repeat;}
+/*.estImgCtrl{} .estImgCtrlInt{} .estLogo{ width:120px; height:80px; position:absolute; z-index:2; top:15px; right:15px;}*/
+
+.estImgLogNme{ width:auto/*563px*/; float:left; clear:both; margin:0 0 10px 0; padding:10px 0 0 0; border:0px solid #CCC; border-radius:13px;}
+.estImgLogNme{} .estLogo{ width:150px; height:100px; float:left; clear:none; border:1px solid #CCC; background-size:100% 100%;}
+.estImgLogNme{} .estLogoProm{ width:191px; height:80px; float:left; clear:none; padding-right:15px;}
+.estImgLogNme{} .estImgLogNme_dat{ width:auto; float:left; padding-left:5px; font-size:13px;}
+.estImgLogNme{} .estImgLogNme_dat a{ font-size:12px; color:#373D45;}
+.estImgLogNme{} .estImgLogNme_dat a:hover{ color:#CCC;}
+.estImgLogNme{} .estImgLogNme_dat h4{ width:auto; float:left; clear:both; padding:10px 0 0 0; margin:0; font-size:21px; font-weight:bold; color:#373D45/*#f47920*/; font-weight:normal;}
+.estImgLogNme{} .estImgLogNme_datProm{ width:auto; float:left; padding-left:15px; padding-right:10px;}
+.estImgLogNme{} .estImgLogNme_datProm h4{ width:auto; float:left; clear:both; padding:10px 0 0 0; margin:0; padding:0; font-size:21px; font-weight:bold; color:#373D45/*#f47920*/; font-weight:normal;}
+
+.estContCtrl{ width:605px; float:left; clear:both; margin:5px 0 0 0; font-family:Arial, Helvetica, sans-serif;}
+.estContCtrl p{ margin-top:0 !important; padding-top:0 !important;}
+
+.estContCtrl .estContCtrl_L{ width:380px; float:left; clear:none; padding:0 10px 0 0;}
+.estContCtrl .estContCtrl_L p{ margin-top:0 !important; padding-top:0 !important;}
+.estContCtrl .estContCtrl_L .estRow{ width:100%; float:left; clear:both; padding:10px 0 0 0; margin:0;}
+.estContCtrl .estContCtrl_L .estRow h4{ width:100%; float:left; clear:both; padding:10px 0 0 0; margin:0; padding:0; font-size:20px; font-weight:bold; color:#f47920;}
+.estContCtrl .estContCtrl_L .estRow h5{ width:100%; float:left; clear:both; padding:10px 0 0 0; margin:0; padding:0; font-size:13px; font-weight:normal; color:#373D45;}
+.estContCtrl .estContCtrl_L .estRow h6{ width:100%; float:left; clear:both; padding:10px 0 0 0; margin:0; padding:0; font-size:14px !important; font-weight:normal; color:#373D45/*#666*/; line-height:none;}
+.estContCtrl .estContCtrl_L .estRow h6 strong{ font-size:21px; font-weight:bold; color:#f47920; line-height:none;}
+.estContCtrl .estContCtrl_L .estRow h6 p{ margin:0 0 0 0 !important; margin-top:0 !important; padding:0 0 0 0 !important; padding-top:0 !important; font-size:14px !important; text-align:left !important; line-height:none;}
+.estContCtrl .estContCtrl_L .estRow p{ width:100%; float:left; clear:both; margin:0 !important; padding:0; text-align:justify !important; font-size:13px !important; color:#373D45;}
+.estContCtrl .estContCtrl_L .estRow .seeterms{ margin-top:0; font-size:13px; font-weight:normal; text-decoration:underline; color:#373D45;}
+.estContCtrl .estContCtrl_L .estRow .seeterms:hover{ color:#CCC; text-decoration:none;}
+.estContCtrl .estContCtrl_L .estRow .sucPar{ font-size:13px; color:#373D45;}
+.estContCtrl .estContCtrl_L .estRow .sucPar p{ font-size:13px; color:#373D45;}
+#inline1{ margin-top:0; padding-top:0; font-family:Arial, Helvetica, sans-serif !important;}
+#inline1 strong{ width:100%; float:left; clear:both; padding:10px 0 0 0; text-align:left; font-size:105px; color:#000; font-weight:normal; letter-spacing:-5px; line-height:99px;}
+#oferCtrlid h6 p{ margin-bottom:0 !important; margin-top:0 !important; padding-bottom:0 !important; padding-top:0 !important; line-height:19px;}
+
+.estContCtrl .estContCtrl_R{ width:195px; min-height:100px; float:left; clear:none; margin:1px 0 0 0; padding:15px 10px; background-color:#F1F1F1; border-radius:11px;}
+.estContCtrl .estContCtrl_R h3{ width:100%; float:left; clear:both; padding:0; margin:0 !important; padding:0 !important; font-size:21px; font-weight:normal; color:#f47920 !important;}
+.estContCtrl .estContCtrl_R .sucCtrl{ width:100%; float:left; clear:both; margin:0; padding:5px 0 0 0; font-family:Arial, sans-serif, Helvetica;}
+.estContCtrl .estContCtrl_R .sucCtrl .sucZona{ width:90%; float:left; clear:both; margin:5px 0 0 0; padding:3px 0 3px 9%; border:1px solid #CCC; background-color:#E6E6E6; font-weight:bold; background:url(../img/bullets/blt_flecha_right.gif) left center no-repeat; font-size:13px; color:#373D45;}
+.estContCtrl .estContCtrl_R .sucCtrl .sucSuc{ width:100%; float:left; clear:both; margin:0; padding:5px 0 5px 0; border-bottom:1px solid #E6E6E6; font-size:12px; color:#373D45; line-height:13px; font-family:Arial, Helvetica, sans-serif;}
+.estContCtrl .nullBg{ background-color:none; background:none;}
+
+.row{ width:100%; float:left; clear:both; padding-top:10px;}
+
+#inline1 .closeFBbtn{ float:right; color:#ec7404; font-weight:bold;}
+
+a.fancybox{ font-size:12px; text-decoration:underline;}
