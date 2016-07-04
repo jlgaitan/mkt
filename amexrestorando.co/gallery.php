@@ -15,7 +15,17 @@
                                 <div class='icons-cuisine-text'><?php echo $restaurant["food-type"] ?></div>
                                 <div class='icons-price list-icon'></div>
                                 <div class='icons-price-text'><?php echo $restaurant["price"] ?></div>
-                                <div class='container-button'><a href="javascript:void(0);" onClick="openReservation(<?php echo $restaurant["id"] ?>);"><button class="reservar">RESERVAR</button></a></div>
+                                <div class='container-button'>
+                                  <a href="javascript:void(0);" onClick='openReservation(<?php echo $restaurant["id"]?>,<?php
+                                  if ($restaurant["filters"] == 'bogota'){
+                                    echo '"amexanualbogota2016"';
+                                      }
+                                  else{
+                                    echo '"amexanualmedellin2016"';
+                                      }?>);'>
+                                    <button class="reservar">RESERVAR</button>
+                                  </a>
+                                </div>
                             </div>
                         </li>
                         <!-- Modal -->

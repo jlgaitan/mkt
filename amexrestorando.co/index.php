@@ -41,8 +41,7 @@
                   type: 'vertical'
                   , width: 260
                   , height: 510
-                  , credit_card_required: false
-                  , partner_id: 'amexanualbogota2016'
+                  , credit_card_required: false                  
               });
         </script>
     <!-- END WIDGET SCRIPT -->
@@ -57,7 +56,7 @@
       <!-- End Google Tag Manager -->
 	<header>
 		<div class="top-bar"><a href="https://bogota.restorando.com.co/" target="_parent"><img src="img/restorando.png" class="logo" /></a></div>
-		  <div class="header-container"><img src="img/header.jpg" class="content-images"/></div>
+		  <div class="header-container"><img src="img/header.png" class="content-images"/></div>
 	</header>
 
 	<main class="cd-main-content">

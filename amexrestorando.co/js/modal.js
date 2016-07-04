@@ -31,11 +31,12 @@ function openImage(src) {
     openModal(img);
 }
 
-function openReservation(restaurant_id) {
+function openReservation(restaurant_id, partner) {
     var widget = document.createElement("restorando-widget");
     openModal(widget, function () {
         wido("runWidget", widget, {
-            restaurant_id: restaurant_id
+            restaurant_id: restaurant_id,
+            partner_id: partner,
         });
     });
 }

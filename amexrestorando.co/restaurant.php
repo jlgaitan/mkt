@@ -11,7 +11,7 @@
 		"food-type" => "Internacional",
 		"price" => "$$$$",
 		"discount" => "20",
-        "filters" => "bogota","filters" => "bogota",
+        "filters" => "bogota",
 	),
     array(
 		"name" => "Donostia",
