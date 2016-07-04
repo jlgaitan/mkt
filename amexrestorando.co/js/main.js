@@ -209,7 +209,8 @@ var buttonFilter = {
 };
 $('.cd-gallery ul').mixItUp({
 	load: {
-  		sort: 'random'
+  		sort: 'random',
+        filter:'.bogota'
   },
     selectors: {
         target: '.mix', /* .mix */
