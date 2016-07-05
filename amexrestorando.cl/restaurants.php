@@ -206,5 +206,25 @@
 		"price" => "$$$",
 		"discount" => "20",
 	),
+    array(
+		"name" => "Matsuri",
+        "sub" => "(Grand Hyatt Santiago)",
+		"slug" => "matsuri-grand-hyatt-santiago",
+		"id" => "4682",
+		"address" => "Av. Kennedy 4601 - Las Condes",
+		"food-type" => "Japonesa",
+		"price" => "$$$$",
+		"discount" => "20",
+	),
+    array(
+		"name" => "Senso",
+        "sub" => "(Grand Hyatt Santiago)",
+		"slug" => "senso-grand-hyatt-santiago",
+		"id" => "4689",
+		"address" => "Av. Kennedy 4601 - Las Condes",
+		"food-type" => "Mediterránea",
+		"price" => "$$$",
+		"discount" => "20",
+	),
   );
 ?>

@@ -189,15 +189,15 @@
    "price" => "$$$",
    "discount" => "20", //Hasta 30
    ),
-   array(
-   "name" => "La Popular del Soho",
-   "sub" => "&nbsp;",
-   "slug" => "la-popular-del-soho",
-   "address" => " Guatemala 4701. Palermo",
-   "food-type" => "Parrilla",
-   "price" => "$$$",
-   "discount" => "20",
-   ), 
+//   array(
+//   "name" => "La Popular del Soho",
+//   "sub" => "&nbsp;",
+//   "slug" => "la-popular-del-soho",
+//   "address" => " Guatemala 4701. Palermo",
+//   "food-type" => "Parrilla",
+//   "price" => "$$$",
+//   "discount" => "20",
+//   ), 
    array(
    "name" => "Buono",
    "sub" => "&nbsp;",

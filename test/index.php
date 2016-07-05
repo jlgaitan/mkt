@@ -21,7 +21,7 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/modernizr.js"></script> <!-- Modernizr -->
 	
-	<title>AMEX / RESTORANDO / COLOMBIA</title>
+	<title>AMEX / RESTORANDO / BARES</title>
 </head>
 <body>
  
@@ -41,7 +41,8 @@
                   type: 'vertical'
                   , width: 260
                   , height: 510
-                  , credit_card_required: false                  
+                  , credit_card_required: false  
+                  , partner_id: 'programa_amex_anual_bares_ar'
               });
         </script>
     <!-- END WIDGET SCRIPT -->
@@ -60,18 +61,6 @@
 	</header>
 
 	<main class="cd-main-content">
-      <div class="cd-tab-filter-wrapper">
-			<div class="cd-tab-filter">
-				<ul class="cd-filters">
-					<li class="placeholder"> 
-						<a data-type="all" href="#all">Bogotá</a> <!-- selected option on mobile -->
-					</li> 
-					<!--li class="filter"><a class="selected" href="#0" data-type="all" onClick="ga('send', 'event', 'AMEX-navigation-bar', 'click', 'TODOS');" >Todos</a></li-->
-					<li class="filter" data-filter=".bogota"><a class="selected" href="#bogota" data-type="bogota" onClick="ga('send', 'event', 'AMEX-navigation-bar', 'click', 'BOGOTA');">Bogotá</a></li>
-					<li class="filter" data-filter=".medellin"><a href="#medellin" data-type="medellin" onClick="ga('send', 'event', 'AMEX-navigation-bar', 'click', 'MEDELLIN');">Medellín</a></li>
-				</ul> <!-- cd-filters -->
-			</div> <!-- cd-tab-filter -->
-		</div> <!-- cd-tab-filter-wrapper -->
 
       <?php include ('gallery.php'); ?>
 
